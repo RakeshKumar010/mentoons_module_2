@@ -1,0 +1,170 @@
+:root{
+    --googlefont:'Yanone Kaffeesatz', sans-serif;
+}
+.home_main,.crises_content{
+    background-color: #eeb312;
+    height: fit-content;
+    width: 100%;
+    padding: 3vw 6vw;
+}
+.crises_content{
+    display: flex;
+    background-color: #c99c22;
+
+}
+.childwant_main{
+    background-color: #eeb312;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.childwithoutjob_main{
+    background-color: #c99c22;
+    height: fit-content;
+    width: 100%;
+    padding: 20vh 10vw;
+
+}
+.childwithoutjob_content{
+    background-color: #eeb312;
+    height: 100vh;
+    border-radius: 20px;
+    position: relative;
+
+}
+.childwant_content{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.home_content{
+    display: flex;
+    
+}
+.home_content_left,.crises_content_right{
+    width: 50%;
+
+
+}
+.home_boy{
+    width: 15%;
+    /* mix-blend-mode: multiply; */
+    filter: drop-shadow(3px 3px 1px black);
+}
+.home_heading{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: var(--googlefont);
+    padding: 2vw 2vw 0 2vw;
+    font-weight: 800;
+    font-size: 61px;
+    color: white;
+    text-shadow: 5px 5px 8px black;
+
+}
+.home_content_right,.crises_content_left{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.crises_content_left{
+    justify-content: start;
+}
+.home_video{
+    width: 62%;
+    /* mix-blend-mode: multiply; */
+    border-radius: 13px;
+    box-shadow: 1px 1px 8px black;
+}
+.home_bottom_left{
+    display: flex;
+    justify-content: start;
+    padding: 2vw 0;
+    align-items: center;
+    color: white;
+}
+.home_para{
+    padding: 1vw;
+     text-shadow: 0 0 5px  black;
+    font-size: larger;
+    color: white;
+
+    
+}
+.childwant_img_heading{
+    color: white;
+    text-shadow: 0 0 5px black;
+
+}
+
+.crises{
+    float: left;
+    width: 35%;
+    mix-blend-mode: multiply;
+    border: 1px solid white;
+    box-shadow: 0 0 8px;
+    margin-top: 5vh;
+    border-radius: 50%;
+}
+
+
+.wfh_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-color: #ee12a4;
+
+    
+}
+.childwan_img{
+    width: 100%;
+    height: 100%;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+.img_container{
+    /* width: 20%; */
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.childwithoutjob_para{
+    border: 1px solid;
+    border-radius: 0 10px 10px 0;
+    width: 40vw;
+    color: white;
+    border-left:0 ;
+    box-shadow: 3px 0 9px black;
+    background-color: #94782a41;
+    /* font-size: 15px; */
+    margin: 2vw 0;
+}
+.cool_boy{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 43%;
+    filter: drop-shadow(1px 1px 10px black);
+}
+.current_crises_list{
+    float: right;
+    color: white;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 8px black;
+    border-radius: 0 10px 10px 0;
+    margin: 2vw;
+    
+ }
+ .intropreppers_main{
+    background-color: #eeb312;
+    height: 50vh;
+    text-align: center;
+ }
